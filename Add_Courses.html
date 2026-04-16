@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Coursed</title>
+    <link rel="StyleSheet" href="./Add_course/Add_courses.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link href="./fonts.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+        <div class="first">
+            <div class="siteName">
+                <p><span>Edu</span> Portal</p>
+            </div>
+            <div class="navList">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./My_courses.html">My courses</a></li>
+                    <li><a href="./Add_Courses.html">Add Courses</a></li>
+                    <li><a href="./Contact_US.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header_3">
+        <div class="addCourseForm">
+            <div class="boxShadow">
+                <div class="boxHeader">
+                    <p>Add a new course</p>
+                </div>
+                <form method="post">
+                    <label class="addLabel" for="Course Name">Course Name:</label>
+                    <br>
+                    <input class="cssEdit" type="text" placeholder="Enter your course name" name="Course Name"
+                        id="Course Name" required>
+                    <br>
+                    <label class="addLabel" for="Instructor Name">Instructor Name:</label>
+                    <br>
+                    <input class="cssEdit" type="text" placeholder="Enter the instructor name" name="Instructor Name"
+                        id="Instructor Name" required>
+                    <br>
+                    <label class="addLabel" for="Credit Hours">Credit Hours:</label>
+                    <br>
+                    <input class="cssEdit" type="number" min="1" max="5" step="1" name="Credit Hours" id="Credit Hours"
+                        placeholder="Ranges from 1 to 5" required>
+                    <br>
+                    <label class="addLabel" for="Notes">Notes:</label>
+                    <br>
+                    <textarea class="cssEdit noteArea" name="Notes" id="Notes"></textarea>
+                    <br>
+                    <input type="submit" class="addCourseButton" value="Add a new Course"></buttom>
+                </form>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <p class="footerData">© 2026 Hossam Mohamed. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
